@@ -4,7 +4,7 @@ input.onButtonEvent(Button.A, input.buttonEventClick(), function () {
 })
 input.onButtonEvent(Button.AB, input.buttonEventClick(), function () {
     while (startwert != 0) {
-        basic.pause(1000)
+        basic.pause(100)
         startwert += -1
         music.playTone(262, music.beat(BeatFraction.Whole))
         basic.showNumber(startwert)
